@@ -1,11 +1,11 @@
 {
   "domain": "bitaxe",
   "name": "Bitaxe",
-  "codeowners": ["@yourusername"],
+  "codeowners": ["@tronsington"],
   "config_flow": true,
-  "documentation": "https://github.com/bitaxeorg/ESP-Miner",
+  "documentation": "https://github.com/exergyheat/ha-integration-bitaxe",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/bitaxeorg/ESP-Miner/issues",
+  "issue_tracker": "https://github.com/exergyheat/ha-integration-bitaxe/issues",
   "requirements": [],
   "version": "1.0.0"
 }
