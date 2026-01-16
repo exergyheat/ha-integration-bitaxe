@@ -1,4 +1,4 @@
-# Bitaxe Integration for Home Assistant
+# Exergy - Bitaxe Integration for Home Assistant
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/release/exergyheat/ha-integration-bitaxe.svg)](https://github.com/exergyheat/ha-integration-bitaxe/releases)
@@ -73,7 +73,7 @@ Monitor and control your [Bitaxe](https://github.com/bitaxeorg/ESP-Miner) Bitcoi
 3. Select "Custom repositories"
 4. Add `https://github.com/exergyheat/ha-integration-bitaxe` as an Integration
 5. Click "Add"
-6. Search for "Bitaxe" and install it
+6. Search for "Exergy - Bitaxe" and install it
 7. Restart Home Assistant
 
 ### Manual Installation
@@ -86,7 +86,7 @@ Monitor and control your [Bitaxe](https://github.com/bitaxeorg/ESP-Miner) Bitcoi
 
 1. Go to **Settings** → **Devices & Services**
 2. Click **+ Add Integration**
-3. Search for "Bitaxe"
+3. Search for "Exergy - Bitaxe"
 4. Enter your Bitaxe device's IP address
 5. Configure the device name, port (default: 80), and scan interval (default: 15 seconds)
 

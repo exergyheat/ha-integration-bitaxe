@@ -49,7 +49,7 @@ class BitaxeSelectBase(CoordinatorEntity, SelectEntity):
         self._key = key
         self._options_map = options_map
         self._reverse_map = {v: k for k, v in options_map.items()}
-        self._attr_name = f"{coordinator.name} {name}"
+        self._attr_name = name
         self._attr_unique_id = f"{coordinator.data.get('macAddr', 'unknown')}_{key}"
         self._attr_options = list(options_map.keys())
         self._attr_has_entity_name = True

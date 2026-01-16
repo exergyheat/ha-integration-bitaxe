@@ -82,7 +82,7 @@ class BitaxeSensorBase(CoordinatorEntity, SensorEntity):
         """Initialize the sensor."""
         super().__init__(coordinator)
         self._key = key
-        self._attr_name = f"{coordinator.name} {name}"
+        self._attr_name = name
         self._attr_unique_id = f"{coordinator.data.get('macAddr', 'unknown')}_{key}"
         self._attr_entity_registry_enabled_default = enabled_default
         self._attr_has_entity_name = True
